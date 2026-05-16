@@ -1,0 +1,10 @@
+# import liabraries
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd 
+from matplotlib.colors import ListedColormap
+from matplotlib.lines import Line2D
+from sklearn import svm
+from sklearn.metrics import classification_report, confusion_matrix , accuracy_score
+import warnings
+warnings.filterwarnings('ignore')   
